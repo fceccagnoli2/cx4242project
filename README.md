@@ -9,9 +9,27 @@ transactions for that NFT is displayed. The current valuation is also displayed 
 point.
 
 INSTALLATION
+- make sure to have pip, anaconda, and git installed.
 
+-  Download required files by using the command below. This will donwload the folder cx4242project. This folder
+ holds: model.py, visualizations.py, analysis.py, data_cleaning.py, requirements.txt, and README.md. 
+ data_cleaning.py was used to clean our data. analysis.py was used for the analysis of our data. requirements.txt 
+ describes the requirements needed to run the program. visualizations.py and model.py are the 2 files actually neeed 
+ for our visualizations. 
 
+git install git@github.com:fceccagnoli2/cx4242project.git
 
+- Create the environment by using:
+
+conda create --name cx4242project
+
+conda activate cx4242project
+
+pip install -r requirements.txt                        
+
+- Run the program by using:
+
+streamlit run visualizations.py
 
 EXECUTION
 - Begin by entering the four required fields: nft project, token id, current date, and current price of
