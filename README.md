@@ -19,7 +19,7 @@ INSTALLATION
 
 git clone git@github.com:fceccagnoli2/cx4242project.git
 
--move into the project directory
+- move into the project directory
 
 cd cx4242project
 
