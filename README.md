@@ -17,7 +17,11 @@ INSTALLATION
  describes the requirements needed to run the program. visualizations.py and model.py are the 2 files actually neeed 
  for our visualizations. 
 
-git install git@github.com:fceccagnoli2/cx4242project.git
+git clone git@github.com:fceccagnoli2/cx4242project.git
+
+-move into the project directory
+
+cd cx4242project
 
 - Create the environment by using:
 
@@ -25,7 +29,7 @@ conda create --name cx4242project
 
 conda activate cx4242project
 
-pip install -r requirements.txt                        
+pip3 install -r requirements.txt                        
 
 - Run the program by using:
 
