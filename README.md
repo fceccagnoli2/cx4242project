@@ -11,7 +11,8 @@ point.
 INSTALLATION
 - make sure to have python, anaconda, homebrew, and git installed. They can be installed on their websites.
 
-- install lfs, a large file storage service from github. This allows github to you to pull our large dataset.
+- install lfs, a large file storage service from github. This allows you to pull our large dataset from github. Use the 
+command below in command line
 
 brew install git-lfs
 
