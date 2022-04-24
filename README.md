@@ -9,13 +9,17 @@ transactions for that NFT is displayed. The current valuation is also displayed 
 point.
 
 INSTALLATION
-- make sure to have pip, anaconda, and git installed.
+- make sure to have python, anaconda, homebrew, and git installed. They can be installed on their websites.
+
+- install lfs, a large file storage service from github. This allows github to you to pull our large dataset.
+
+brew install git-lfs
 
 -  Download required files by using the command below. This will donwload the folder cx4242project. This folder
- holds: model.py, visualizations.py, analysis.py, data_cleaning.py, requirements.txt, and README.md. 
- data_cleaning.py was used to clean our data. analysis.py was used for the analysis of our data. requirements.txt 
- describes the requirements needed to run the program. visualizations.py and model.py are the 2 files actually neeed 
- for our visualizations. 
+ holds: model.py, visualizations.py, analysis.ipynb, data_cleaning.ipynb, requirements.txt, README.md, and a data
+ folder which holds clean_data_large.csv. data_cleaning.py was used to clean our data. analysis.py was used for 
+ the analysis of our data. requirements.txt describes the requirements needed to run the program. visualizations.py and 
+ model.py are the 2 files actually needed for our visualizations. 
 
 git clone git@github.com:fceccagnoli2/cx4242project.git
 
