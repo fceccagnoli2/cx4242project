@@ -55,7 +55,7 @@ will appear and the user will be asked to re-enter the information. When the inf
 If there are no transactions of this NFT in our database, we are unable to value the NFT and the user will be asked to
 try a different NFT. Otherwise, the program will continue successfully.
 
-There are a few ways to interact with the graph that is displayed. First, users can hover over data points
+- There are a few ways to interact with the graph that is displayed. First, users can hover over data points
 to see the date and specific price of the transaction. Users can also zoom in on any area of the chart by clicking on
 the chart and making a box over the area they would like to zoom in on. To zoom back out, double click on the chart.
 Users can also zoom in and out by clicking the zoom in and zoom out buttons above the cart. Users can navigate around
