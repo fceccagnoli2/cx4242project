@@ -9,14 +9,17 @@ transactions for that NFT is displayed. The current valuation is also displayed 
 point.
 
 INSTALLATION
-- make sure to have python, anaconda, homebrew, and git installed. They can be installed on their websites.
+- If you don't have them already, download python, anaconda, homebrew, and git. They can be installed on their websites. 
+If you have not used github before, you will need to create an account and get a public key. Instructions for getting a 
+public key can be found at:
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 - install lfs, a large file storage service from github. This allows you to pull our large dataset from github. Use the 
 command below in command line
 
 brew install git-lfs
 
--  Download required files by using the command below. This will donwload the folder cx4242project. This folder
+-  Download required files by using the command below. This will download the folder cx4242project. This folder
  holds: model.py, visualizations.py, analysis.ipynb, data_cleaning.ipynb, requirements.txt, README.md, and a data
  folder which holds clean_data_large.csv. data_cleaning.py was used to clean our data. analysis.py was used for 
  the analysis of our data. requirements.txt describes the requirements needed to run the program. visualizations.py and 
@@ -39,6 +42,10 @@ pip3 install -r requirements.txt
 - Run the program by using:
 
 streamlit run visualizations.py
+
+If for some reason any of the above steps fail, you can donwload all of the required files to run the app from the 
+github page. Click code -> download zip. The requirements to run the file are in requirements.txt. 
+https://github.com/fceccagnoli2/cx4242project
 
 EXECUTION
 - Begin by entering the four required fields: nft project, token id, current date, and current price of
