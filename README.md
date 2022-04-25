@@ -62,5 +62,5 @@ Users can also zoom in and out by clicking the zoom in and zoom out buttons abov
 the chart by clicking the 'pan' button above the chart and dragging to where they want to navigate. Users can also
 download the plot by clicking 'Download plot as a png' above the chart.
 
-To see the valuation of a different NFT, simply fill in the form again and click submit. The new information will
+- To see the valuation of a different NFT, simply fill in the form again and click submit. The new information will
 appear.
