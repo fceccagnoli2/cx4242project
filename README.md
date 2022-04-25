@@ -43,7 +43,7 @@ pip3 install -r requirements.txt
 
 streamlit run visualizations.py
 
-If for some reason any of the above steps fail, you can donwload all of the required files to run the app from the 
+- If for some reason any of the above steps fail, you can donwload all of the required files to run the app from the 
 github page. Click code -> download zip. The requirements to run the file are in requirements.txt. 
 https://github.com/fceccagnoli2/cx4242project
 
